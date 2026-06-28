@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0F172A" />
+    <meta name="description" content="SELLIZI - Advanced fintech platform for digital product sales and management across Africa" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="SELLIZI - Digital Commerce Platform" />
+    <meta property="og:description" content="Sell and manage digital products with mobile money payments across 16 African countries" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sellizi.vercel.app" />
+    <meta property="og:image" content="https://sellizi.vercel.app/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SELLIZI - Digital Commerce Platform" />
+    <meta name="twitter:description" content="Sell and manage digital products with mobile money payments across 16 African countries" />
+    <meta name="twitter:image" content="https://sellizi.vercel.app/og-image.jpg" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <title>SELLIZI - Digital Commerce Platform</title>
+    
+    <style>
+      * {
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      body {
+        overscroll-behavior-y: contain;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      /* Hide scrollbars globally */
+      * {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+      
+      *::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
