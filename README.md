@@ -17,7 +17,7 @@ A sophisticated, production-ready Progressive Web App (PWA) for selling and mana
 ### Three-Space Architecture
 - **Buyer Space**: Simple product viewing and access
 - **Seller Space**: 40+ seller tools and features
-- **Admin Space**: 30+ comprehensive system management tools
+- **Admin Space**: 30+ comprehensive system management tool
 
 ### Core Features
 - ✅ PWA (installable, offline-capable, splash screens)
